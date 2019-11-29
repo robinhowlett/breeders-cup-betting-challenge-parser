@@ -21,7 +21,7 @@
     <url>http://www.example.com</url>
 
     <properties>
-        <pdfbox.version>2.0.11</pdfbox.version>
+        <pdfbox.version>2.0.15</pdfbox.version>
         <commons-io.version>2.6</commons-io.version>
     </properties>
 
