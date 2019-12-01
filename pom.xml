@@ -8,7 +8,7 @@
     <parent>
         <groupId>com.robinhowlett</groupId>
         <artifactId>horse-racing-parser-parent</artifactId>
-        <version>1.0.0.BUILD-SNAPSHOT</version>
+        <version>1.0.0.RELEASE</version>
         <relativePath/>
     </parent>
 
@@ -17,19 +17,23 @@
     <version>1.0.0.BUILD-SNAPSHOT</version>
 
     <name>breeders-cup-betting-challenge-parser</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+    <description>Using Apache PDFBox to parse the Breeders' Cup Betting Challenge PDF results
+        document
+    </description>
+    <url>https://github.com/robinhowlett/breeders-cup-betting-challenge-parser</url>
 
     <properties>
-        <pdfbox.version>2.0.11</pdfbox.version>
+        <pdfbox.version>2.0.15</pdfbox.version>
         <commons-io.version>2.6</commons-io.version>
+        <commons-csv.version>1.6</commons-csv.version>
+        <horse-racing-parser.version>1.0.0.RELEASE</horse-racing-parser.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.robinhowlett</groupId>
             <artifactId>horse-racing-parser</artifactId>
-            <version>1.0.0.BUILD-SNAPSHOT</version>
+            <version>${horse-racing-parser.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
@@ -37,13 +41,9 @@
             <version>${pdfbox.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-csv</artifactId>
-            <version>1.6</version>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
