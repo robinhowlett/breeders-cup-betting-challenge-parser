@@ -14,7 +14,7 @@
 
     <groupId>com.robinhowlett</groupId>
     <artifactId>breeders-cup-betting-challenge-parser</artifactId>
-    <version>1.0.0.BUILD-SNAPSHOT</version>
+    <version>1.0.0.RELEASE</version>
 
     <name>breeders-cup-betting-challenge-parser</name>
     <description>Using Apache PDFBox to parse the Breeders' Cup Betting Challenge PDF results
