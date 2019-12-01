@@ -34,6 +34,8 @@ public class BCBCParser extends PDFTextStripper implements Parser<List<BCBCEntry
     /**
      * Instantiate a new PDFTextStripper object.
      *
+     * @param config A helper configuration object for quickly setting the tourney dates and
+     *               trailer.
      * @throws IOException If there is an error loading the properties.
      */
     public BCBCParser(BCBCConfig config) throws IOException {
