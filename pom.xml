@@ -8,13 +8,13 @@
     <parent>
         <groupId>com.robinhowlett</groupId>
         <artifactId>horse-racing-parser-parent</artifactId>
-        <version>1.0.0.RELEASE</version>
+        <version>2.0.0.BUILD-SNAPSHOT</version>
         <relativePath/>
     </parent>
 
     <groupId>com.robinhowlett</groupId>
     <artifactId>breeders-cup-betting-challenge-parser</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>2.0.0.BUILD-SNAPSHOT</version>
 
     <name>breeders-cup-betting-challenge-parser</name>
     <description>Using Apache PDFBox to parse the Breeders' Cup Betting Challenge PDF results
@@ -26,7 +26,7 @@
         <pdfbox.version>2.0.15</pdfbox.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-csv.version>1.6</commons-csv.version>
-        <horse-racing-parser.version>1.0.0.RELEASE</horse-racing-parser.version>
+        <horse-racing-parser.version>2.0.0.BUILD-SNAPSHOT</horse-racing-parser.version>
     </properties>
 
     <dependencies>
